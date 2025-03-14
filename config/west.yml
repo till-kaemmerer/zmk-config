@@ -8,7 +8,7 @@ manifest:
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     - name: zmk-locales
-      url-base: https://github.com/joelspadin/zmk-locales
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: zmkfirmware
