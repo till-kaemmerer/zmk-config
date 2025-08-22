@@ -44,7 +44,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kp TAB &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF       &rgb_ug RGB_HUI       &rgb_ug RGB_HUD       &rgb_ug RGB_SAI       &rgb_ug RGB_SAD &rgb_ug RGB_SPI &rgb_ug RGB_SPD &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans &trans
                                     &ext_power EP_ON    &trans       &kp SPACE      &kp RET  &trans   &kp BSPC
                         >;
@@ -58,7 +58,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  ESC  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
-   &kp TAB &bt BT_CLR 0 &bt BT_CLR 1 &bt BT_CLR 2 &bt BT_CLR 3 &bt BT_CLR 4 &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
+   &kp TAB &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp DE_LT  &kp DE_GT &kp PIPE &kp TILDE
                              &ext_power EP_OFF &trans   &kp SPACE   &kp RET   &trans    &kp BSPC
                         >;
